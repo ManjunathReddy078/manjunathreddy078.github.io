@@ -15,8 +15,8 @@ The website is built using plain HTML, CSS, and JavaScript for easy maintenance 
 - `index.html` - Home page, profile, summary, education, skills, achievements, and contact
 - `projects.html` - Academic projects and design contributions
 - `certificates.html` - Top certificates + expandable full certificate list
-- `style.css` - Global theme, layout, responsive styles, UI effects
-- `script.js` - Certificates section interaction
+- `assets/css/style.css` - Global theme, layout, responsive styles, UI effects
+- `assets/js/script.js` - Certificates section interaction
 - `assets/images/profile.jpg` - Profile image
 - `assets/docs/resume_latest.pdf` - Resume file for website CTA
 
