@@ -2,63 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Seelam Manjunath Reddy</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<div class="page-shell">
+  <header class="top-nav">
+    <a class="brand" href="index.html">SMR Portfolio</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="certificates.html">Certificates</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Academic Projects</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="certificates.html">Certificates</a>
-  </nav>
-</header>
-
-<div class="container">
-
-  <section class="section project">
-    <h3>ClarifAI – Smart Feedback Evaluation System (PG Capstone)</h3>
-    <p>
-      A web-based academic system designed to collect and analyze anonymous student feedback
-      using explainable NLP techniques. The platform supports sentiment classification,
-      moderation workflows, and structured insights for faculty.
-    </p>
-    <p class="meta">
-      <strong>Tech:</strong> Python, Flask, SQLite, HTML, CSS, TextBlob<br>
-      <strong>Status:</strong> In progress (final academic submission)
-    </p>
+<main class="container">
+  <section class="section page-intro">
+    <p class="eyebrow">Educational Gallery</p>
+    <h1>Academic Projects</h1>
+    <p class="lead">Focused on structured problem solving, clear workflows, and implementation discipline.</p>
   </section>
 
   <section class="section project">
-    <h3>Mirror Website Security – Research Project (UG Major)</h3>
+    <h3>ClarifAI - Smart Feedback Evaluation & Knowledge Sharing System</h3>
+    <p class="meta">PG Major Capstone · Solo · Ongoing</p>
     <p>
-      A research-oriented project analyzing mirror websites, phishing risks, and user awareness.
-      The work focused on documentation, analysis, and ethical security research.
+      Designed and developed a prototype system to collect, analyze, and moderate anonymous academic feedback.
+      Built a Flask-based backend with SQLite, role-based workflows, and explainable rule-based sentiment analysis.
     </p>
+    <p class="meta"><strong>Tech:</strong> Python, Flask, SQLite, HTML, CSS, TextBlob</p>
     <p class="meta">
-      <strong>Achievement:</strong> 2nd Prize – Aarambh Innovation Expo
+      <strong>GitHub:</strong>
+      <a href="https://github.com/ManjunathReddy078/ClarifAI-Capstone" target="_blank">ClarifAI-Capstone Repository</a>
     </p>
+    <p class="meta"><strong>Current Stage:</strong> Paper draft for conference listing and publication.</p>
   </section>
 
   <section class="section project">
-    <h3>Bubbly Mobile Store – Frontend Prototype (UG Minor)</h3>
+    <h3>Angular & Firebase Academic Prototype (Rebuilding)</h3>
+    <p class="meta">PG Minor Project · Solo</p>
     <p>
-      A mobile-first e-commerce frontend prototype developed as a team project.
-      Served as team leader and handled UI structure, navigation flow, and presentation.
+      Developed an Angular and Firebase-based academic prototype as part of PG coursework.
+      Currently rebuilding a minimal functional version to demonstrate frontend framework usage and backend integration.
     </p>
-    <p class="meta">
-      <strong>Tech:</strong> HTML, CSS, JavaScript
-    </p>
+    <p class="meta"><strong>Status:</strong> Rebuilding</p>
   </section>
 
-</div>
+  <section class="section project">
+    <h3>Mirror Website Security Analysis - Research Project</h3>
+    <p class="meta">UG Major Project · Team Lead · Team of 3</p>
+    <p>
+      Led a research-focused project analyzing risks and misuse patterns of mirror websites,
+      with emphasis on cybersecurity awareness and research communication.
+    </p>
+    <p class="meta"><strong>Achievement:</strong> 2nd Prize - Aarambh Innovation Expo (Poster Presentation)</p>
+  </section>
+
+  <section class="section project">
+    <h3>Bubbly Mobile Store - Frontend Prototype</h3>
+    <p class="meta">UG Minor Project · Team Lead · Team of 8</p>
+    <p>
+      Designed and implemented a static frontend prototype for mobile-store workflows.
+      Handled UI layout structure, navigation flow planning, team coordination, and final presentation.
+    </p>
+    <p class="meta"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+  </section>
+
+</main>
 
 <footer>
-  © 2026 Seelam Manjunath Reddy
+  <p>© 2026 Seelam Manjunath Reddy</p>
 </footer>
+</div>
 
 </body>
 </html>

@@ -2,42 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Certificates | Seelam Manjunath Reddy</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<div class="page-shell">
+  <header class="top-nav">
+    <a class="brand" href="index.html">SMR Portfolio</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="certificates.html" class="active">Certificates</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Selected Certifications</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </nav>
-</header>
-
-<div class="container">
-
-  <section class="section">
-    <ul>
-      <li>Introduction to Java and Object-Oriented Programming – Coursera</li>
-      <li>Java Programming: Arrays, Lists, and Structured Data – Coursera</li>
-      <li>Programming for Everybody (Python) – Coursera</li>
-      <li>Python Data Structures – Coursera</li>
-      <li>Database Structures and Management with MySQL – Coursera</li>
-      <li>Database Management Essentials – Coursera</li>
-      <li>Introduction to Web Development (HTML, CSS, JavaScript) – Coursera</li>
-      <li>AWS Cloud Practitioner Essentials – Coursera</li>
-      <li>Agile Software Development – Coursera</li>
-    </ul>
+<main class="container">
+  <section class="section page-intro">
+    <p class="eyebrow">Educational Gallery</p>
+    <h1>Certifications</h1>
+    <p class="lead">Top certifications are highlighted below. Use the button to view additional certificates.</p>
   </section>
 
-</div>
+  <section class="section">
+    <h2>Top 6 Highlights</h2>
+    <div class="grid three-col cert-grid">
+      <article class="card cert-card"><h3>Java Programming: Arrays, Lists, and Structured Data</h3><p class="muted">Coursera</p></article>
+      <article class="card cert-card"><h3>Introduction to Java and Object-Oriented Programming</h3><p class="muted">Coursera</p></article>
+      <article class="card cert-card"><h3>Database Structures and Management with MySQL</h3><p class="muted">Coursera</p></article>
+      <article class="card cert-card"><h3>Introduction to Web Development (HTML, CSS, JavaScript)</h3><p class="muted">Coursera</p></article>
+      <article class="card cert-card"><h3>Programming for Everybody (Python)</h3><p class="muted">Coursera</p></article>
+      <article class="card cert-card"><h3>Agile Software Development</h3><p class="muted">Coursera</p></article>
+    </div>
+    <p class="muted cert-total">Total certificates: 30+</p>
+    <button id="toggleCertificates" class="btn btn-secondary" type="button">View All Certificates</button>
+  </section>
+
+  <section id="allCertificates" class="section hidden">
+    <h2>Additional Certificates</h2>
+    <div class="grid two-col cert-grid">
+      <article class="card cert-card">
+        <h3>AI & Data Science</h3>
+        <ul>
+          <li>Introduction to Artificial Intelligence (AI) - IBM</li>
+          <li>Python for Data Analysis: Pandas & NumPy - Coursera</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Cybersecurity</h3>
+        <ul>
+          <li>Introduction to Cybersecurity Foundations - Infosec</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Cloud Computing</h3>
+        <ul>
+          <li>AWS Cloud Practitioner Essentials - Amazon Web Services</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Programming</h3>
+        <ul>
+          <li>Programming for Everybody (Getting Started with Python) - University of Michigan</li>
+          <li>Python Data Structures - University of Michigan</li>
+          <li>C++ Basics: Selection & Iteration - Codio</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Web Development</h3>
+        <ul>
+          <li>Introduction to Web Development (HTML, CSS, JavaScript) - IBM</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Databases</h3>
+        <ul>
+          <li>Database Management Essentials - University of Colorado</li>
+          <li>Introduction to Databases - Meta</li>
+          <li>Database Structures & Management with MySQL - Meta</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Operating Systems & Systems</h3>
+        <ul>
+          <li>Introduction to Hardware and Operating Systems - IBM</li>
+          <li>Unix System Basics - Codio</li>
+          <li>Shell Scripting with Bash: Basics - Coursera</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Excel & Productivity</h3>
+        <ul>
+          <li>Everyday Excel Part 1 - University of Colorado Boulder</li>
+          <li>Everyday Excel Part 2 - University of Colorado Boulder</li>
+          <li>Everyday Excel Part 3 (Projects) - University of Colorado Boulder</li>
+          <li>Everyday Excel Specialization Completion - University of Colorado Boulder</li>
+          <li>Introduction to Computers & Office Productivity Software - HKUST</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Mathematics & Logic</h3>
+        <ul>
+          <li>Matrix Algebra for Engineers - HKUST</li>
+          <li>Logic for Economists - University of Amsterdam</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Software Engineering & Agile</h3>
+        <ul>
+          <li>Agile Software Development - University of Minnesota</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Finance & Decision Making</h3>
+        <ul>
+          <li>Personal & Family Financial Planning - University of Florida</li>
+          <li>Introduction to Time Value of Money - University of Michigan</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Psychology & Well-being</h3>
+        <ul>
+          <li>Mindfulness & Well-being: Foundations - Rice University</li>
+          <li>Health Behavior Change: From Evidence to Action - Yale University</li>
+        </ul>
+      </article>
+      <article class="card cert-card">
+        <h3>Soft Skills & Professional Development</h3>
+        <ul>
+          <li>Emotional & Social Intelligence - UC Davis</li>
+          <li>Effective Problem-Solving & Decision-Making - UC Irvine</li>
+        </ul>
+      </article>
+    </div>
+    <p class="muted">Certificate dates and verification links can be added as soon as you share certificate files or credential URLs.</p>
+  </section>
+
+</main>
 
 <footer>
-  © 2026 Seelam Manjunath Reddy
+  <p>© 2026 Seelam Manjunath Reddy</p>
 </footer>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
